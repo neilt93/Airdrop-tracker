@@ -33,9 +33,7 @@ export async function scoreCredibility(airdrop: Airdrop): Promise<{
           content: JSON.stringify({
             name: airdrop.name,
             chain: airdrop.chain,
-            details: airdrop.details,
-            socialLinks: airdrop.socialLinks,
-            source: airdrop.source
+            socialLinks: airdrop.socialLinks
           })
         }
       ],
